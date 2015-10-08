@@ -42,6 +42,7 @@ while (1) {
 	}
 	else {
 		#no more data available, break
+		print "There are no more data available from page num $page_num, exiting\n";
 		last;
 	}
 }
